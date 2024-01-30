@@ -1,11 +1,14 @@
 {
-  "name": "python_webpage",
+  "name": "node_webpage",
   "version": "1.0.0",
-  "description": "",
+  "description": "NodeJS Project with Expres FrameWork and Running in Docker Container",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "author": "AdrianBastidas",
-  "license": "ISC"
+  "author": "AdrianB17",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
